@@ -15,4 +15,13 @@
     height: 90vmin;
     border: 2px solid black;
     border-radius: 5px;
+    grid-template-rows:repeat(18,1fr);
+    grid-template-columns:repeat(18,1fr);
+
+}
+.head{
+    background-color: red;
+}
+.food{
+    background-color: purple;
 }
