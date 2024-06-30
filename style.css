@@ -5,4 +5,14 @@
 .body{
     background:url(snake.jpeg) ;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background: linear-gradient(rgb(170,236,170),rgb(236,236,167));
+    width: 90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    border-radius: 5px;
 }
