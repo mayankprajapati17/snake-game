@@ -28,7 +28,7 @@
     border-radius: 9px;
 }
 .snake{
-    background-color: purple;
+    background-color: rgb(34, 4, 34);
     border: .25vmin solid white;
     border-radius: 12px;
 }
@@ -37,4 +37,11 @@
     border: .25vmin solid black;
     border-radius: 8px;
 
+}
+#score{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
 }
